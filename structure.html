@@ -3,32 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>table</title>
-
+    <title>Html forms</title>
 </head>
 <body>
-<table border="1">
-    <thead>
-        <tr>
-<th>First Name</th>
-<th>Last Name</th>
-        </tr>
-    </thead>
+    <h1>HTML FORMS</h1>
+    <form >
+        <label for="username">User Name</label>
+        <input type="text" id="username">
+<br>
+<br>
+        <label for="password">Password</label>
+        <input type="password" id="password">
+      <br>  
+      <br>  
+        
+      <label for="email">Email</label>
+      <input type="email" id="email">
+      <br>
+      <br>
 
-    <tbody>
-        <tr>
-            <td>Ali</td>
-            <td>hassan</td>
-        </tr>
+      <p>select your gender</p>
+      <label for="male">male</label>
+      <input type="radio" id="male" name="gender">
+      <br>
+      <label for="female">female</label>
+      <input type="radio" id="female" name="gender">
+      <br>
+      <label for="other">other</label>
+      <input type="radio" id="other" name="gender">
+      <br>
+      <br>
+      <input type="submit" value="submit">
 
-        <tr>
-            <td>hassan</td>
-            <td>Ali</td>
-        </tr>
-    </tbody>
-</table>
-
-   
-    
+    </form>
 </body>
 </html>
